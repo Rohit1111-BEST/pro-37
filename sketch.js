@@ -81,8 +81,8 @@ function draw() {
   if (obstaclesGroup.isTouching (trex)){
     gamestate=END
       }
-    //  camera.position.x=trex.x
-    //  camera.position.y=trex.y 
+      camera.position.x=trex.x
+      camera.position.y=trex.y 
      }
   
   
